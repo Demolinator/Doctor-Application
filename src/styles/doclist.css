@@ -1,0 +1,91 @@
+/* DoctorList.css */
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .doctor-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .doctor-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .specialty {
+    font-weight: bold;
+  }
+  
+  .location {
+    color: #777;
+  }
+  
+  .book-appointment-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .book-appointment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .appointment-form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .appointment-form label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .appointment-form input[type="date"],
+  .appointment-form input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .appointment-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .appointment-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

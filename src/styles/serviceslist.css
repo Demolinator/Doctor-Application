@@ -1,0 +1,43 @@
+/* ServiceList.css */
+
+/* Service List Container */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Service Item Styles */
+  .service-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .service-list {
+      flex-direction: column;
+    }
+  
+    .service-item {
+      flex: none;
+      max-width: 100%;
+    }
+  }
+  

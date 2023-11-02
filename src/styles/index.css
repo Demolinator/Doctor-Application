@@ -1,0 +1,353 @@
+/* Index Page Styles */
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    white-space: nowrap; /* Prevent text from breaking */
+    overflow: show; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    max-width: 100%; /* Ensure the logo doesn't overflow the container */
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('/Doctor-pic.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    position: relative; /* Added for positioning the pseudo-element */
+    background-color: rgba(0, 0, 0, 0.9); /* Darken the background */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 24px;
+  }
+  
+  /* Button Styles */
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .featured-doctors {
+    background-color: #f5f5f5; /* Background color for the section */
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-doctors h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }  
+  /* Services Styles */
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* About Us Styles */
+  .about-us h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  about-us p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Us Styles */
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  contact p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Search Tab Styles */
+.search-tab {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 24px;
+    border-radius: 6px;
+  }
+  
+  .search-tab h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  /* Search Form Styles */
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+  }
+  
+  .doctor-type {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .search-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }  
+
+/* Updated CSS for Featured Doctors and Text Styling */
+.featured-doctors {
+    background-color: #f5f5f5;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-doctors h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333; /* Change text color */
+  }
+  
+  .doctor-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Increase padding for more spacing */
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .doctor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px; /* Increase margin for more spacing */
+  }
+  
+  .doctor-details {
+    flex: 1;
+  }
+  
+  .doctor-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Increase margin for more spacing */
+    color: #333; /* Change text color */
+  }
+  
+  .doctor-details p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Increase margin for more spacing */
+  }
+  
+  /* Updated CSS for Other Sections */
+  /* You can apply similar text styling improvements to other sections as needed */
+  
+  .about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Updated CSS for Other Sections */
+  /* You can apply similar text styling improvements to other sections as needed */
+  
+  .about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+   
+  
+  /* CSS for the About Us section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust card styles for smaller screens */
+    .doctor-card {
+      margin: 8px 0;
+      flex-direction: column; /* Stack image and text on smaller screens */
+    }
+  
+    .doctor-image {
+      width: 80px;
+      height: 80px;
+      margin-left: 0; /* Reset margin for stacking */
+      margin-bottom: 8px; /* Add spacing between image and text */
+    }
+  }
+  
+  .services {
+    text-align: center;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    .hero {
+      padding: 40px 0;
+    }
+  
+    .hero h1 {
+      font-size: 28px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    /* Adjust other styles as needed for responsiveness */
+  }
+  
+  /* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }

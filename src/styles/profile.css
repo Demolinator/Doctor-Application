@@ -1,0 +1,42 @@
+/* profile.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .profile-info {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .appointments-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .appointment-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .appointment-details {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
